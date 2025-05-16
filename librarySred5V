@@ -46,10 +46,22 @@ local redzlib = {
       ["Color Text"] = Color3.fromRGB(240, 240, 240),
       ["Color Dark Text"] = Color3.fromRGB(180, 180, 180)
     },
+    red = {
+      ["Color Hub 1"] = ColorSequence.new({
+        ColorSequenceKeypoint.new(0.00, Color3.fromRGB(199, 32, 32)),
+        ColorSequenceKeypoint.new(0.50, Color3.fromRGB(199, 32, 32)),
+        ColorSequenceKeypoint.new(1.00, Color3.fromRGB(128, 25, 25))
+      }),
+      ["Color Hub 2"] = Color3.fromRGB(30, 30, 30),
+      ["Color Stroke"] = Color3.fromRGB(40, 40, 40),
+      ["Color Theme"] = Color3.fromRGB(150, 0, 255),
+      ["Color Text"] = Color3.fromRGB(240, 240, 240),
+      ["Color Dark Text"] = Color3.fromRGB(180, 180, 180)
+    },
     Orange = {
       ["Color Hub 1"] = ColorSequence.new({
-        ColorSequenceKeypoint.new(0.00, Color3.fromRGB(105, 68, 0)),
-        ColorSequenceKeypoint.new(0.50, Color3.fromRGB(105, 68, 0)),
+        ColorSequenceKeypoint.new(0.00, Color3.fromRGB(199, 38, 38)),
+        ColorSequenceKeypoint.new(0.50, Color3.fromRGB(199, 38, 38)),
         ColorSequenceKeypoint.new(1.00, Color3.fromRGB(70, 40, 0))
       }),
       ["Color Hub 2"] = Color3.fromRGB(188, 123, 0),
@@ -66,7 +78,7 @@ local redzlib = {
   Save = {
     UISize = {434,247},
     TabSize = 160,
-    Theme = "Orange"
+    Theme = "red"
   },
   Settings = {},
   Connection = {},
